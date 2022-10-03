@@ -41,46 +41,66 @@ unit тесты
 
 обеспечение качества(QC):усовершенствование процессов,контроль качества,управление изменениями
 
-7 принципов тестированиея
----
-![image](https://user-images.githubusercontent.com/97594290/192241616-b13f82ad-0b5b-41b1-8a49-a8525cf1d8b4.png)
-![image](https://user-images.githubusercontent.com/97594290/192242110-c7739e1f-d796-4c15-8ea6-e8055522c741.png)
-![image](https://user-images.githubusercontent.com/97594290/192243044-9011e078-244b-4431-8c49-6cc85086b8f5.png)
-![image](https://user-images.githubusercontent.com/97594290/192243262-1266c87d-7efc-410f-803f-a09c6dfb180b.png)
-![image](https://user-images.githubusercontent.com/97594290/192243465-2566bf23-e143-4d44-b0f2-5691d9c06a30.png)</br>
-Парадокс пестицида подразумевает привыкание</br>
-![image](https://user-images.githubusercontent.com/97594290/192244012-0dce09f3-b4c7-47dc-b81f-e3cf9a035eb4.png)
-![image](https://user-images.githubusercontent.com/97594290/192244525-153a855e-b5b2-46a9-88e0-496ef65bf398.png)
+ 7 принципов тестирования:
 
----
-TDD - Tets Driven Development
----
-![image](https://user-images.githubusercontent.com/97594290/192245064-57ec2df4-7426-49fc-901a-74575c598b2e.png)
+1)Тестирование демонстрирует наличие дефектов
 
----
+2)Исчерпывающее тестирование недостижимо
+
+3)Ранее тестирование
+
+4)Скопленее дефектов
+
+5)Парадокс пестицила - привыкание
+
+6)Тестирование зависит от контекста
+
+7)Заблуждение об отсутствии ошибок
+
+TDD
+
+Разработка через тестирование.
+
 Жизненный цикл ПО
----
-![image](https://user-images.githubusercontent.com/97594290/192246309-0bd316b1-ec51-418c-9e77-66893b8e0360.png)
-![image](https://user-images.githubusercontent.com/97594290/192245867-015912c5-0581-4c8a-beb3-9f4304758d57.png)
-![image](https://user-images.githubusercontent.com/97594290/192246372-3c74848b-4537-4ba1-a6cf-882185571045.png)
-![image](https://user-images.githubusercontent.com/97594290/192248324-e605a1e5-2740-484b-a766-cd384a5d1d87.png)
 
----
+![image](https://user-images.githubusercontent.com/97594244/192246049-831dd7cd-9626-41ae-ab1c-ade2a84c24cf.png)
 
-Зачем ЖЦ?</br>
-Эффективность</br>
-Прозрачность</br>
-![image](https://user-images.githubusercontent.com/97594290/192249347-1a7ed7ca-aaad-438f-9e20-5ba3deeab2d4.png)</br>
-Предсказуемость</br>
-Управляемость</br>
-Сдерживание рисков</br>
-![image](https://user-images.githubusercontent.com/97594290/192249883-c8e718af-b80b-4a53-9caf-1e38b755aa0b.png)</br>
-Модели:</br>
-![image](https://user-images.githubusercontent.com/97594290/192250410-b1052f0b-16e9-4f32-9149-01575de5c5b9.png)</br>
-Каскадная модель:</br>
-![image](https://user-images.githubusercontent.com/97594290/192250456-79a6f8ba-134d-41df-9c22-65d7e1e395f9.png)</br>
-![image](https://user-images.githubusercontent.com/97594290/192250603-124d60b0-f6e2-4d8d-ba85-219f9b23bb42.png)</br>
-![image](https://user-images.githubusercontent.com/97594290/192250695-b9c12670-e6f1-4732-9b91-f63a5349db04.png)</br>
-![image](https://user-images.githubusercontent.com/97594290/192250952-ef4b5fa6-c7ea-4e0f-bc96-ee50ce2f08f2.png)
-![image](https://user-images.githubusercontent.com/97594290/192251366-f7098e7b-3112-4f57-ac97-7014b202c66c.png)
+ЖЦ программного обеспечения:
 
+период времени,начинающийся с момента появления концепции програмного обеспечения и заканчивающийся тогда,когда дальнейшее использование программного обеспечения невозможно
+
+Этапы:
+
+- Анализ осуществимости
+
+- проектирование
+
+- кодирование
+
+- отклад и тестирование
+
+- внедрение
+
+Эффективность:
+
+- затраты/бюджет
+
+-сроки
+
+-приемлимое качество продукта
+
+Прозрачность:
+
+- статус работ известен в любой момент проекта
+
+- даже если всё заканчивается хорошо,не знать 
+
+![image](https://user-images.githubusercontent.com/97594244/192250533-1d98ee08-48fc-4798-b030-7a694d2e6467.png)
+
+Трудности тестирования в каскадной модели
+
+1)Поиск компромисса между качеством и сроками поставки
+
+2) Разработчики передают тестировщикам нестабильные системы
+
+3) Позднее включение тестирования тестировщиков в проект
