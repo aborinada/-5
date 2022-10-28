@@ -15,3 +15,9 @@ Git wild animals
 ![image](https://user-images.githubusercontent.com/97913101/197967023-c362007f-fa1f-4c96-8270-905635b8a81d.png)
 
 ![image](https://user-images.githubusercontent.com/97913101/197967078-b5a578fa-a598-4ee7-a943-b1971b563b95.png)
+
+3 git
+
+![image](https://user-images.githubusercontent.com/97913101/198516604-fa7a9262-ffd5-4acd-bdd9-66c37762609f.png)
+
+![image](https://user-images.githubusercontent.com/97913101/198516716-09e95774-ff2b-44ab-ac0e-23e49bd7708b.png)
